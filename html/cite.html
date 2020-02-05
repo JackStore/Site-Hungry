@@ -4,35 +4,48 @@
         <meta charset="UTF-8">
         
         <title>Test page</title>
+        <link rel="stylesheet" href="../css/main.css">
+        <link href="../css/media-queries.css" rel="stylesheet" type="text/css">
         <style>
+            
         body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
           padding-top: 15px;
           background: url(../images/fon-head.png);
-          background-size: center;
+          background-position: top;
           background-repeat: no-repeat;  
         } 
-        p{
+        p {
             line-height: 1.5;
         }    
+        a {
+            text-decoration: none;
+            color: #ffffff !important;
+            color: black;
+        }
+        
         </style>  
     </head>
     <body>
         <header>
             <div class="head-div">
             <div id="block1"><b>Hungary</b></div>
-            <div id="block2"><a href="#" id="button-link"><p2>Home</p2></a></div>
+            <div id="block2"><a href="#" id="button-link"><p2 class="character-m">Home</p2></a></div>
             <div id="block2"><a href="#" id="button-link"><p2>Company</p2></a></div>
             <div id="block2"><a href="#" id="button-link"><p2>Product</p2></a></div>
             <div id="block2"><a href="#" id="button-link"><p2>News</p2></a></div>
             </div>
             <div><h1 class="h-1">Hungary in Belarus</h1></div>
             <div><p class="h-2">We invite to cooperate Hungarian manufacturers ready to present their<br>
-                products to the Belarusian maket</p></div>
-            <div class="semi-transparent-button">
-               <p><a href="#" >More</a></p>
-            </div>
+                products to the Belarusian market</p></div>
+                <div class="posit-but">
+                    <div class="semi-transparent-button">
+                    <p><b><a href="#" >More</a></b></p>
+                    </div>
+                </div>
         </header>
-       
             <p class="h-3">Company</p>
             <p class="h-4">The work of the company Hungarian Trade House LLC is aimed at
                 presentation of<br>
@@ -44,15 +57,18 @@
             <style>
                 p{
                     line-height: 1.5;
+                    font-family: 'font3f68500b267c20051088bcc0698af773';
                 }
                 h2{
                     line-height: 3.5;
+                    font-family: 'font3f68500b267c20051088bcc0698af773';
                 }
                 p1{
                     line-height: 8.5;
                 }
                 p2{
                     text-transform: uppercase;
+                    font-family: 'font99fc0816a09395454061301fefa42bf1';
                 }
             </style>
 
@@ -70,23 +86,21 @@
                     properly for 200 years or more.<br></p>
                     <p1>Tokaji Eszencia is often described as one of the most exclusive wines in the world.</p1>
                     <div class="semi-transparent-button2">
-                        <p><a href="#" >More</a></p>
+                        <p><strong>More</strong></p>
                      </div></div>
                 </div>
         </article>
             <div class="product"></div>
         <footer>
             <div class="footer-div">
-                <div id="block3"><a href="#" id="button-link2">Company</a></div>
-                <div id="block3"><a href="#" id="button-link2">Product</a></div>
-                <div id="block3"><a href="#" id="button-link2">News</a></div>
+                <div id="block3"><p id="button-link2"><h2>Company</h2></p></div>
+                <div id="block3"><p id="button-link2"><h2>Product</h2></a></div>
+                <div id="block3"><p id="button-link2"><h2>News</h2></p></div>
             </div>
-            <div id="block4"><p>Contact us<br></p></div>
-            <div id="block5"><p>(+47)2255−3278<br> <p>info@hungary.com</p></p></div>
-            <div id="footer-h">Hungary</div>
-            <article>
+            <div id="block4"><p><b>Contact us<br></p></b></div>
+            <div id="block5"><p><b>(+47)2255−3278<br> <p>info@hungary.com</b></p></p></div>
+            <div class="footer-h"><b>Hungary</b></div>
             <div class="fon-down"></div>
-            </article>
         </footer>
     </body>
 </html>
