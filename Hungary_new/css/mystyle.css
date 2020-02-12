@@ -347,10 +347,18 @@ h1 {
 }
 
 @media screen and (max-width: 750px) {
-    .container {
-        max-width: 100%;
+    
+    .about__info {
+        color: white;
     }
 
+    .about__uptitle {
+        color: white;
+    }
+
+    .about__title {
+        color: white;
+    }
     .intro__title {
         padding-top: 40%;
     }
@@ -358,10 +366,15 @@ h1 {
     .intro {
         padding-bottom: 0;
     }
+
+    .about__button {
+        color: white;
+        border-color: white;
+    }
 }
 
 @media screen and (max-width: 500px) {
-    .header__inner {
+    .header__line {
         display: block;
         width: 100%;
     }
